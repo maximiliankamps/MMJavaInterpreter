@@ -1,0 +1,18 @@
+iload <n>: push local integer n on stack
+istore <n>: pop value from stack and store in n
+
+iconst <n>: push integer constant n on stack
+
+iadd: pop value1 and value2 from stack, push add result on stack
+isub: pop value1 and value2 from stack, push sub result on stack
+imul: pop value1 and value2 from stack, push mul result on stack
+idiv: pop value1 and value2 from stack, push div result on stack
+
+icmpe, n: pop value1 and value2 from stack, jmp to address in entry n of label table
+icmpge, n: pop value1 and value2 from stack, jmp to address in entry n of label table
+
+goto, n: jmp to address in n
+
+print: pop value from stack and print
+
+
